@@ -12,9 +12,9 @@ import Foundation
 public class Planet {
     
     let title: String
-    let distanceFromSun: Float
-    let diameter: Float
-    let daysForYear: Float
+    let distanceFromSun: Float // in miles
+    let diameter: Float         // in km
+    let daysForYear: Float      // in Earth days
     let funFact: String
     
     init(title: String, distanceFromSun: Float, diameter: Float, daysForYear: Float, funFact: String) {
@@ -28,7 +28,7 @@ public class Planet {
 }
 
 
-let mercury = Planet(title: "Mercury", distanceFromSun: 1, diameter: 10, daysForYear: 10, funFact: "hola")
+let mercury = Planet(title: "Mercury", distanceFromSun: 41973000 , diameter: 10, daysForYear: 10, funFact: "hola")
 
 let venus = Planet(title: "Venus", distanceFromSun: 11, diameter: 11, daysForYear: 11, funFact: "hi")
 
