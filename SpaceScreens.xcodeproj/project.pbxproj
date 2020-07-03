@@ -19,6 +19,7 @@
 		D471D8AB24AD05740035E6FC /* CollectionPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D471D8AA24AD05740035E6FC /* CollectionPageViewController.swift */; };
 		D4FD5F0324AE286D00B74B71 /* TablePage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4FD5F0224AE286D00B74B71 /* TablePage.storyboard */; };
 		D4FD5F0624AE28BF00B74B71 /* CollectionPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4FD5F0424AE28BF00B74B71 /* CollectionPage.storyboard */; };
+		DB51888524AFE50F00F239A1 /* AppIcons (1) in Resources */ = {isa = PBXBuildFile; fileRef = DB51888424AFE50F00F239A1 /* AppIcons (1) */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		D471D8AA24AD05740035E6FC /* CollectionPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionPageViewController.swift; sourceTree = "<group>"; };
 		D4FD5F0224AE286D00B74B71 /* TablePage.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TablePage.storyboard; sourceTree = "<group>"; };
 		D4FD5F0524AE28BF00B74B71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = SpaceScreens/View/Base.lproj/CollectionPage.storyboard; sourceTree = "<group>"; };
+		DB51888424AFE50F00F239A1 /* AppIcons (1) */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "AppIcons (1)"; path = "../../../../Downloads/AppIcons (1)"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 				D471D8A124AD04C50035E6FC /* Controller */,
 				D471D8A024AD04B10035E6FC /* View */,
 				8A3AA51024AD027000682E92 /* Assets.xcassets */,
+				DB51888424AFE50F00F239A1 /* AppIcons (1) */,
 				8A3AA51224AD027000682E92 /* LaunchScreen.storyboard */,
 				8A3AA51524AD027000682E92 /* Info.plist */,
 			);
@@ -168,6 +171,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4FD5F0324AE286D00B74B71 /* TablePage.storyboard in Resources */,
+				DB51888524AFE50F00F239A1 /* AppIcons (1) in Resources */,
 				D4FD5F0624AE28BF00B74B71 /* CollectionPage.storyboard in Resources */,
 				8A3AA51424AD027000682E92 /* LaunchScreen.storyboard in Resources */,
 				D471D8A724AD053E0035E6FC /* InfoPage.storyboard in Resources */,
