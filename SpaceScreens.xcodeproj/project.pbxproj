@@ -12,6 +12,7 @@
 		8A3AA50F24AD026E00682E92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A3AA50D24AD026E00682E92 /* Main.storyboard */; };
 		8A3AA51124AD027000682E92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A3AA51024AD027000682E92 /* Assets.xcassets */; };
 		8A3AA51424AD027000682E92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A3AA51224AD027000682E92 /* LaunchScreen.storyboard */; };
+		8A3AA51C24AE377000682E92 /* Planet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3AA51B24AE377000682E92 /* Planet.swift */; };
 		D471D8A724AD053E0035E6FC /* InfoPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D471D8A624AD053E0035E6FC /* InfoPage.storyboard */; };
 		D471D8A924AD05640035E6FC /* TablePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D471D8A824AD05640035E6FC /* TablePageViewController.swift */; };
 		D471D8AB24AD05740035E6FC /* CollectionPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D471D8AA24AD05740035E6FC /* CollectionPageViewController.swift */; };
@@ -28,6 +29,7 @@
 		8A3AA51024AD027000682E92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A3AA51324AD027000682E92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8A3AA51524AD027000682E92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A3AA51B24AE377000682E92 /* Planet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Planet.swift; sourceTree = "<group>"; };
 		D471D8A624AD053E0035E6FC /* InfoPage.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = InfoPage.storyboard; sourceTree = "<group>"; };
 		D471D8A824AD05640035E6FC /* TablePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TablePageViewController.swift; sourceTree = "<group>"; };
 		D471D8AA24AD05740035E6FC /* CollectionPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionPageViewController.swift; sourceTree = "<group>"; };
@@ -50,6 +52,7 @@
 		8A3AA4FB24AD026E00682E92 = {
 			isa = PBXGroup;
 			children = (
+				8A3AA51D24AE37AD00682E92 /* Model */,
 				8A3AA50624AD026E00682E92 /* SpaceScreens */,
 				8A3AA50524AD026E00682E92 /* Products */,
 			);
@@ -75,6 +78,14 @@
 				8A3AA51524AD027000682E92 /* Info.plist */,
 			);
 			path = SpaceScreens;
+			sourceTree = "<group>";
+		};
+		8A3AA51D24AE37AD00682E92 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8A3AA51B24AE377000682E92 /* Planet.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		D471D8A024AD04B10035E6FC /* View */ = {
@@ -175,6 +186,7 @@
 				D471D8A924AD05640035E6FC /* TablePageViewController.swift in Sources */,
 				8A3AA50824AD026E00682E92 /* AppDelegate.swift in Sources */,
 				D471D8AD24AD05850035E6FC /* InfoPageViewController.swift in Sources */,
+				8A3AA51C24AE377000682E92 /* Planet.swift in Sources */,
 				D471D8AB24AD05740035E6FC /* CollectionPageViewController.swift in Sources */,
 				8A3AA50A24AD026E00682E92 /* SceneDelegate.swift in Sources */,
 			);
