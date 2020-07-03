@@ -50,7 +50,7 @@ class TablePageViewController: UIViewController, UITableViewDelegate, UITableVie
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let IPVC = segue.destination as! InfoPageViewController
-        IPVC.selectedPlanet = selectedPlanet
+        IPVC.selectedItem = selectedPlanet
     }
     /*
     // MARK: - Navigation
