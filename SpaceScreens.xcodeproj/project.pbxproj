@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		001CF56E24AF764500069133 /* InfoPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001CF56D24AF764500069133 /* InfoPageViewController.swift */; };
 		8A3AA50824AD026E00682E92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3AA50724AD026E00682E92 /* AppDelegate.swift */; };
 		8A3AA50A24AD026E00682E92 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3AA50924AD026E00682E92 /* SceneDelegate.swift */; };
 		8A3AA50F24AD026E00682E92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A3AA50D24AD026E00682E92 /* Main.storyboard */; };
@@ -16,12 +17,12 @@
 		D471D8A724AD053E0035E6FC /* InfoPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D471D8A624AD053E0035E6FC /* InfoPage.storyboard */; };
 		D471D8A924AD05640035E6FC /* TablePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D471D8A824AD05640035E6FC /* TablePageViewController.swift */; };
 		D471D8AB24AD05740035E6FC /* CollectionPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D471D8AA24AD05740035E6FC /* CollectionPageViewController.swift */; };
-		D471D8AD24AD05850035E6FC /* InfoPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D471D8AC24AD05850035E6FC /* InfoPageViewController.swift */; };
 		D4FD5F0324AE286D00B74B71 /* TablePage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4FD5F0224AE286D00B74B71 /* TablePage.storyboard */; };
 		D4FD5F0624AE28BF00B74B71 /* CollectionPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4FD5F0424AE28BF00B74B71 /* CollectionPage.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		001CF56D24AF764500069133 /* InfoPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPageViewController.swift; sourceTree = "<group>"; };
 		8A3AA50424AD026E00682E92 /* SpaceScreens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpaceScreens.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A3AA50724AD026E00682E92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8A3AA50924AD026E00682E92 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -33,7 +34,6 @@
 		D471D8A624AD053E0035E6FC /* InfoPage.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = InfoPage.storyboard; sourceTree = "<group>"; };
 		D471D8A824AD05640035E6FC /* TablePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TablePageViewController.swift; sourceTree = "<group>"; };
 		D471D8AA24AD05740035E6FC /* CollectionPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionPageViewController.swift; sourceTree = "<group>"; };
-		D471D8AC24AD05850035E6FC /* InfoPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPageViewController.swift; sourceTree = "<group>"; };
 		D4FD5F0224AE286D00B74B71 /* TablePage.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TablePage.storyboard; sourceTree = "<group>"; };
 		D4FD5F0524AE28BF00B74B71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = SpaceScreens/View/Base.lproj/CollectionPage.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -103,8 +103,8 @@
 			isa = PBXGroup;
 			children = (
 				D471D8AA24AD05740035E6FC /* CollectionPageViewController.swift */,
-				D471D8AC24AD05850035E6FC /* InfoPageViewController.swift */,
 				D471D8A824AD05640035E6FC /* TablePageViewController.swift */,
+				001CF56D24AF764500069133 /* InfoPageViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -185,8 +185,8 @@
 			files = (
 				D471D8A924AD05640035E6FC /* TablePageViewController.swift in Sources */,
 				8A3AA50824AD026E00682E92 /* AppDelegate.swift in Sources */,
-				D471D8AD24AD05850035E6FC /* InfoPageViewController.swift in Sources */,
 				8A3AA51C24AE377000682E92 /* Planet.swift in Sources */,
+				001CF56E24AF764500069133 /* InfoPageViewController.swift in Sources */,
 				D471D8AB24AD05740035E6FC /* CollectionPageViewController.swift in Sources */,
 				8A3AA50A24AD026E00682E92 /* SceneDelegate.swift in Sources */,
 			);
