@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SafariServices
 
 class InfoPageViewController: UIViewController {
 
@@ -16,6 +17,7 @@ class InfoPageViewController: UIViewController {
     @IBOutlet weak var DiameterLabel: UILabel!
     @IBOutlet weak var DistanceLabel: UILabel!
     @IBOutlet weak var ImageView: UIImageView!
+    
     
     var selectedItem : Planet?
 
@@ -28,6 +30,8 @@ class InfoPageViewController: UIViewController {
         DaysLabel.text = "\(selectedItem?.daysForYear ?? 0)"
         DiameterLabel.text = "\(selectedItem?.diameter ?? 0)"
         DistanceLabel.text =  "\(selectedItem?.distanceFromSun ?? 0)"
+        ImageView.image = selectedItem?.image
+        
         
         
         
@@ -35,7 +39,12 @@ class InfoPageViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func LinkPressed(_ sender: Any) {
+        let SFVC = SFSafariViewController(url: URL(string: (selectedItem?.link)!)!)
+        SFVC.delegate = self as! SFSafariViewControllerDelegate
+        present(SFVC, animated: true, completion: nil)
+    }
+    
     /*
     // MARK: - Navigation
 
