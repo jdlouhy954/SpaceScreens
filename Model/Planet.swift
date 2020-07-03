@@ -20,7 +20,7 @@ public class Planet {
     var funFact: String
     var link: String?
     var image: UIImage?
-    
+
     init(title: String, distanceFromSun: Float, diameter: Float, daysForYear: Float, funFact: String, link: String, image: UIImage) {
         self.title = title
         self.distanceFromSun = distanceFromSun
@@ -32,5 +32,6 @@ public class Planet {
     }
     
 }
+
 
 
