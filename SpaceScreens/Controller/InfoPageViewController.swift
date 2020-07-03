@@ -10,6 +10,8 @@ import UIKit
 
 class InfoPageViewController: UIViewController {
 
+    var selectedPlanet: Planet?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
