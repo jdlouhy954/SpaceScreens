@@ -18,6 +18,7 @@ class InfoPageViewController: UIViewController {
     @IBOutlet weak var ImageView: UIImageView!
     
     var selectedItem : Planet?
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
