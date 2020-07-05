@@ -28,8 +28,10 @@ class TablePageViewController: UIViewController, UITableViewDelegate, UITableVie
     
     //MARK: - UITableViewDelegate Methods
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let cell = tableView.cellForRow(at: indexPath)
+        tableView.deselectRow(at: indexPath, animated: true)
         selectedPlanet = planets[indexPath.row]
-        performSegue(withIdentifier: "toInfoPage", sender: self)
+        performSegue(withIdentifier: "toInfoPage", sender: cell)
     }
     
     
@@ -76,7 +78,7 @@ class TablePageViewController: UIViewController, UITableViewDelegate, UITableVie
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let IPVC = segue.destination as! InfoPageViewController
-        IPVC.selectedItem = selectedPlanet
+        IPVC.selectedPlanet = selectedPlanet
     }
     /*
     // MARK: - Navigation

@@ -26,9 +26,6 @@
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
-                                        <connections>
-                                            <segue destination="4rZ-KZ-HHu" kind="show" identifier="toInfoPage" id="osg-oe-2Ao"/>
-                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
@@ -39,7 +36,6 @@
                             <constraint firstItem="fhB-nd-zsg" firstAttribute="top" secondItem="TlS-7m-Xd5" secondAttribute="top" id="aJw-if-EEQ"/>
                             <constraint firstItem="TlS-7m-Xd5" firstAttribute="trailing" secondItem="fhB-nd-zsg" secondAttribute="trailing" id="k31-ua-9aG"/>
                             <constraint firstItem="fhB-nd-zsg" firstAttribute="leading" secondItem="TlS-7m-Xd5" secondAttribute="leading" id="mpk-wn-nhY"/>
-                            <constraint firstItem="TlS-7m-Xd5" firstAttribute="bottom" secondItem="fhB-nd-zsg" secondAttribute="bottom" id="nNK-xX-EGc"/>
                             <constraint firstAttribute="bottom" secondItem="fhB-nd-zsg" secondAttribute="bottom" constant="34" id="zx6-7f-3Ym"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="TlS-7m-Xd5"/>
@@ -47,6 +43,7 @@
                     <tabBarItem key="tabBarItem" title="Table Page" id="TfF-Kh-s4l"/>
                     <connections>
                         <outlet property="mainTableView" destination="fhB-nd-zsg" id="fId-ht-GCY"/>
+                        <segue destination="4rZ-KZ-HHu" kind="show" identifier="toInfoPage" id="Bzq-l7-d7I"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hXF-rm-fh4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

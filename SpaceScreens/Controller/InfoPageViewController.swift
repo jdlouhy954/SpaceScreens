@@ -17,21 +17,21 @@ class InfoPageViewController: UIViewController {
     @IBOutlet weak var DiameterLabel: UILabel!
     @IBOutlet weak var DistanceLabel: UILabel!
     @IBOutlet weak var ImageView: UIImageView!
-    @IBOutlet weak var linkButton: UIButton!
+    @IBOutlet weak var LinkButton: UIButton!
     
     
-    var selectedItem : Planet?
+    var selectedPlanet : Planet?
 
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        FunFactLabel.text = selectedItem?.funFact
-        NameLabel.text = selectedItem?.title
-        DaysLabel.text = "\(selectedItem?.daysForYear ?? 0)"
-        DiameterLabel.text = "\(selectedItem?.diameter ?? 0)"
-        DistanceLabel.text =  "\(selectedItem?.distanceFromSun ?? 0)"
-        ImageView.image = selectedItem?.image
+        FunFactLabel.text = selectedPlanet?.funFact
+        NameLabel.text = selectedPlanet?.title
+        DaysLabel.text = "\(selectedPlanet?.daysForYear ?? 0)"
+        DiameterLabel.text = "\(selectedPlanet?.diameter ?? 0)"
+        DistanceLabel.text =  "\(selectedPlanet?.distanceFromSun ?? 0)"
+        ImageView.image = selectedPlanet?.image
         
         
         
@@ -41,8 +41,8 @@ class InfoPageViewController: UIViewController {
     }
     
     @IBAction func LinkPressed(_ sender: Any) {
-        let SFVC = SFSafariViewController(url: URL(string: (selectedItem?.link)!)!)
-        SFVC.delegate = self as! SFSafariViewControllerDelegate
+        let SFVC = SFSafariViewController(url: URL(string: (selectedPlanet?.link)!)!)
+        SFVC.delegate = self as? SFSafariViewControllerDelegate
         present(SFVC, animated: true, completion: nil)
     }
     
