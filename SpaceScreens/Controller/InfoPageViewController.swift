@@ -17,6 +17,7 @@ class InfoPageViewController: UIViewController {
     @IBOutlet weak var DiameterLabel: UILabel!
     @IBOutlet weak var DistanceLabel: UILabel!
     @IBOutlet weak var ImageView: UIImageView!
+    @IBOutlet weak var LinkButton: UIButton!
     
     
     var selectedItem : Planet?
@@ -41,7 +42,7 @@ class InfoPageViewController: UIViewController {
     
     @IBAction func LinkPressed(_ sender: Any) {
         let SFVC = SFSafariViewController(url: URL(string: (selectedItem?.link)!)!)
-        SFVC.delegate = self as! SFSafariViewControllerDelegate
+        SFVC.delegate = self as? SFSafariViewControllerDelegate
         present(SFVC, animated: true, completion: nil)
     }
     
