@@ -28,9 +28,9 @@ class InfoPageViewController: UIViewController {
         
         FunFactLabel.text = selectedPlanet?.funFact
         NameLabel.text = selectedPlanet?.title
-        DaysLabel.text = "\(selectedPlanet?.daysForYear ?? 0)"
-        DiameterLabel.text = "\(selectedPlanet?.diameter ?? 0)"
-        DistanceLabel.text =  "\(selectedPlanet?.distanceFromSun ?? 0)"
+        DaysLabel.text = "\(selectedPlanet?.daysForYear ?? 0)" + " days in a year"
+        DiameterLabel.text = "\(selectedPlanet?.diameter ?? 0)" + " miles in diameter"
+        DistanceLabel.text =  "\(selectedPlanet?.distanceFromSun ?? 0)" + " miles from sun"
         ImageView.image = selectedPlanet?.image
         
         
