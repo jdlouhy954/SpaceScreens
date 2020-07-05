@@ -17,6 +17,7 @@ class InfoPageViewController: UIViewController {
     @IBOutlet weak var DiameterLabel: UILabel!
     @IBOutlet weak var DistanceLabel: UILabel!
     @IBOutlet weak var ImageView: UIImageView!
+    @IBOutlet weak var linkButton: UIButton!
     
     
     var selectedItem : Planet?

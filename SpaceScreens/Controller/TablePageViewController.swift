@@ -29,6 +29,7 @@ class TablePageViewController: UIViewController, UITableViewDelegate, UITableVie
     //MARK: - UITableViewDelegate Methods
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         selectedPlanet = planets[indexPath.row]
+        performSegue(withIdentifier: "toInfoPage", sender: self)
     }
     
     

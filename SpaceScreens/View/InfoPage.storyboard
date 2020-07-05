@@ -82,6 +82,7 @@
                         <outlet property="ImageView" destination="Q9E-HB-FNu" id="AVt-CR-dGS"/>
                         <outlet property="LinkButton" destination="GVG-wM-xYy" id="lAI-PT-uUG"/>
                         <outlet property="NameLabel" destination="dmG-NK-cYr" id="Ge6-di-mcT"/>
+                        <outlet property="linkButton" destination="GVG-wM-xYy" id="WFs-5N-aCY"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AWL-tO-FuK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
