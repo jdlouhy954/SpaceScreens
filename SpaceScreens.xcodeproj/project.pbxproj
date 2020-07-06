@@ -20,7 +20,6 @@
 		D4FD5F0324AE286D00B74B71 /* TablePage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4FD5F0224AE286D00B74B71 /* TablePage.storyboard */; };
 		D4FD5F0624AE28BF00B74B71 /* CollectionPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4FD5F0424AE28BF00B74B71 /* CollectionPage.storyboard */; };
 		DBC4337A24B2D3A1001408AF /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC4337924B2D3A1001408AF /* CollectionViewCell.swift */; };
-		DBC4337C24B2E557001408AF /* 256 planets in Resources */ = {isa = PBXBuildFile; fileRef = DBC4337B24B2E557001408AF /* 256 planets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,7 +38,6 @@
 		D4FD5F0224AE286D00B74B71 /* TablePage.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TablePage.storyboard; sourceTree = "<group>"; };
 		D4FD5F0524AE28BF00B74B71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = SpaceScreens/View/Base.lproj/CollectionPage.storyboard; sourceTree = "<group>"; };
 		DBC4337924B2D3A1001408AF /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
-		DBC4337B24B2E557001408AF /* 256 planets */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "256 planets"; path = "../../256 planets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +76,6 @@
 				D471D8A124AD04C50035E6FC /* Controller */,
 				D471D8A024AD04B10035E6FC /* View */,
 				8A3AA51024AD027000682E92 /* Assets.xcassets */,
-				DBC4337B24B2E557001408AF /* 256 planets */,
 				8A3AA51224AD027000682E92 /* LaunchScreen.storyboard */,
 				8A3AA51524AD027000682E92 /* Info.plist */,
 			);
@@ -176,7 +173,6 @@
 				D4FD5F0324AE286D00B74B71 /* TablePage.storyboard in Resources */,
 				D4FD5F0624AE28BF00B74B71 /* CollectionPage.storyboard in Resources */,
 				8A3AA51424AD027000682E92 /* LaunchScreen.storyboard in Resources */,
-				DBC4337C24B2E557001408AF /* 256 planets in Resources */,
 				D471D8A724AD053E0035E6FC /* InfoPage.storyboard in Resources */,
 				8A3AA51124AD027000682E92 /* Assets.xcassets in Resources */,
 				8A3AA50F24AD026E00682E92 /* Main.storyboard in Resources */,

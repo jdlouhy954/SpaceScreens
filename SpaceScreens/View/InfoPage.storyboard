@@ -86,8 +86,8 @@
                                         <rect key="frame" x="0.0" y="552" width="414" height="266"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GVG-wM-xYy" userLabel="Button">
-                                                <rect key="frame" x="170" y="118" width="74" height="30"/>
-                                                <state key="normal" title="LinkButton"/>
+                                                <rect key="frame" x="174.66666666666666" y="118" width="65" height="30"/>
+                                                <state key="normal" title="More Info"/>
                                                 <connections>
                                                     <action selector="LinkPressed:" destination="6gQ-CQ-3DS" eventType="touchUpInside" id="5lo-kg-oWU"/>
                                                 </connections>
